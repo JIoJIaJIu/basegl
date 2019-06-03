@@ -573,7 +573,7 @@ export class GLSLRenderer
 
 
 
-class ShaderBuilder
+export class ShaderBuilder
   constructor: (@fragment, @idmap=null, @attributes=null, @uniforms=null) ->
 
   compute: () ->
